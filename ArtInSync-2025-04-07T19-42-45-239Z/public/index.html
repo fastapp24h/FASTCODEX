@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Webapp</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Webapp</h1>
+  </header>
+  <main>
+    <section>
+      <h2>Dati</h2>
+      <button id="fetchData">Carica Dati</button>
+      <div id="dataContainer"></div>
+    </section>
+    <section>
+      <h2>Invia Dati</h2>
+      <form id="submitForm">
+        <label for="name">Nome:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <button type="submit">Invia</button>
+      </form>
+      <div id="submitMessage"></div>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
